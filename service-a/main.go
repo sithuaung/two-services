@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	h "github.com/sithuaung/two-services/helper"
+	h "github.com/sithuaung/two-services/helper/v2"
 )
 
 func main() {
