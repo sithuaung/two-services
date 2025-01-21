@@ -1,0 +1,13 @@
+services:
+  service-a:
+    build:
+      context: ./service-a
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"  # Map port 8080 on the host to port 8080 on the container
+  service-b:
+    build:
+      context: ./service-b
+      dockerfile: Dockerfile
+    ports:
+      - "9000:9000"  # Map port 8081 on the host to port 8080 on the container
