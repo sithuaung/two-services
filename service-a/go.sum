@@ -1,2 +1,2 @@
-github.com/sithuaung/two-services/helper v0.0.0-20250121155313-a2f9995f5437 h1:81bpMf4ohSx9kyEQruYQMdwYTppq2dfxOdiEG4oE4y4=
-github.com/sithuaung/two-services/helper v0.0.0-20250121155313-a2f9995f5437/go.mod h1:Lxq3eV9H04A8tqdYYxUDszvc2Wki9HakyyzZymliq58=
+github.com/sithuaung/two-services/helper/v2 v2.0.0-20250121160018-516a8f0b8014 h1:rYykF3OFNzPm/Jae9eLwQgjoPlbp3IwNIOCdEjd2T6A=
+github.com/sithuaung/two-services/helper/v2 v2.0.0-20250121160018-516a8f0b8014/go.mod h1:g6mUgIO0MovRTw90ahgUbHU1PihnilTAiKBDhPwLIwY=

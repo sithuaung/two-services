@@ -7,7 +7,7 @@ import (
 
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintln(w, "Hello, World! Welcome to the simple Golang service.")
+		fmt.Fprintln(w, "Hello from service B.")
 	})
 
 	port := ":9000"
