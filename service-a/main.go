@@ -4,11 +4,14 @@ import (
 	"fmt"
 	"net/http"
 
-	h "github.com/sithuaung/two-services/helper/v2"
+	h "github.com/sithuaung/two-services/helper"
 )
 
 func main() {
 	h.Log()
+
+	h.AddedLog()
+	h.AnotherLog()
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprintln(w, "Hello from service A.")
